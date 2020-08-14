@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Contact Me</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header id="header-inner">
+        <div class="container">
+            <nav id="main-nav">
+                <img src="img/logo.png" alt="logo" id="logo" srcset="">
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="work.html" >Work</a></li>
+                    <li><a href="contact.html" class="current">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+   <!-- section a contact form -->
+   <section id="contact-a" class="text-center py-3">
+       <div class="container">
+           <h2 class="section-title">COntact Me</h2>
+           <div class="bottom-line"></div>
+           <p class="lead">Here is how you can reach me</p>
+           <form method="POST" data-netlify="true" data-netlify-recaptcha="true">
+               <div class="text-fields">
+                   <input type="text" placeholder="Name" class="text-input name-input" name="name">
+                   <input type="text" placeholder="Subject" class="text-input subject-input" name="subject">
+                   <input type="email" placeholder="Email" class="text-input email-input" name="email">
+                   <input type="text" placeholder="Phone Number" class="text-input phone-input" name="phone">
+                   <textarea type="text" placeholder="Enter Message" class="text-input message-input" name="message"></textarea>
+                   <div class="my-2">
+                        <div data-netlify-recaptcha="true"></div>
+                   </div>
+               </div>
+               <button class="btn-dark" type="submit">Submit</button>
+           </form>
+       </div>
+   </section>
+
+   <!-- section b contact info -->
+   <section id="contact-b" class="py-3 bg-dark">
+       <div class="container">
+           <div class="contact-info">
+               <div>
+                   <i class="fas fa-envelop fa-2x"></i>
+                   <h3>Emain</h3>
+                   <p>something@something.com</p>
+               </div>
+               <div>
+                   <i class="fas fa-phone fa-2x"></i>
+                   <h3>Phone</h3>
+                   <p>(555)555-5555</p>
+               </div>
+               <div>
+                   <i class="fas fa-address-card fa-2x"></i>
+                   <h3>Address</h3>
+                   <p>Hyderabad</p>
+               </div>
+           </div>
+       </div>
+   </section>
+
+   <!-- section c tag line -->
+   <section id="contact-c" class="bg-main py-4">
+       <div class="container">
+           <h1>Lets start your Next Project</h1>
+       </div>
+   </section>
+    <footer id="main-footer">
+        <div class="footer-content container">
+            <p>Copyright &copy; 20.9. All Rights Reserved</p>
+            <div class="social">
+                <l class="fab fa-twitter"></l>
+                <l class="fab fa-facebook"></l>
+                <l class="fab fa-instagram"></l>
+                <l class="fab fa-linkedin"></l>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/typewriter.js"></script>
+</body>
+
+</html>
